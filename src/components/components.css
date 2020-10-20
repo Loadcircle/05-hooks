@@ -4,3 +4,17 @@ body{
 .blockquote{
     display: flex;
 }
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.no-margin{
+    margin: 0;
+}
+.pointer{
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
